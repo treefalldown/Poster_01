@@ -81,12 +81,12 @@ function setup() {
 
   // ball2 = Bodies.circle(200, 10, 80);
   // ball3 = Bodies.circle(220, 40, 80);
-  wall_left = Bodies.rectangle(-20, height, 20, height*2, {
+  wall_left = Bodies.rectangle(-20, height, 20, height*100, {
     // ground = Bodies.rectangle(400, 500, 810, 25, {
     // isStatic: true, angle: Math.PI * 0.06
     isStatic: true, angle: Math.PI * 0.00001
   });
-  wall_right = Bodies.rectangle(width+20, height, 20, height*2, {
+  wall_right = Bodies.rectangle(width+20, height, 20, height*100, {
     // ground = Bodies.rectangle(400, 500, 810, 25, {
     // isStatic: true, angle: Math.PI * 0.06
     isStatic: true, angle: Math.PI * 0.00001
