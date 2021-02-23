@@ -52,32 +52,32 @@ function setup() {
   engine = Engine.create();
 
   // create two boxes and a ground
-  box_01 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
-  box_02 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
-  box_03 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
-  box_04 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
-  box_05 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
-  box_06 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
-  box_07 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
-  box_08 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
-  box_09 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
-  box_10 = Bodies.rectangle(random(width), random(0, randomYPos), 290, 730);
+  box_01 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
+  box_02 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
+  box_03 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
+  box_04 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
+  box_05 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
+  box_06 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
+  box_07 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
+  box_08 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
+  box_09 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
+  box_10 = Bodies.rectangle(random(width), random(-randomYPos, randomYPos), 290, 730);
 
-  ball_01 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_02 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_03 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_04 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_05 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_06 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_07 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_08 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_09 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_10 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_11 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_12 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_13 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_14 = Bodies.circle(random(width), random(0, randomYPos), 185);
-  ball_15 = Bodies.circle(random(width), random(0, randomYPos), 185);
+  ball_01 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_02 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_03 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_04 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_05 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_06 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_07 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_08 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_09 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_10 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_11 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_12 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_13 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_14 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
+  ball_15 = Bodies.circle(random(width), random(-randomYPos, randomYPos), 185);
 
   // ball2 = Bodies.circle(200, 10, 80);
   // ball3 = Bodies.circle(220, 40, 80);
